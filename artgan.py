@@ -11,7 +11,7 @@ import os
 PREVIEW_ROWS = 4
 PREVIEW_COLS = 7
 PREVIEW_MARGIN = 4
-SAVE_FREQ = 100
+SAVE_FREQ = 10
 
 # Size vector to generate images from
 NOISE_SIZE = 100
