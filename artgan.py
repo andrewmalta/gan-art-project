@@ -11,19 +11,19 @@ import os
 PREVIEW_ROWS = 4
 PREVIEW_COLS = 7
 PREVIEW_MARGIN = 4
-SAVE_FREQ = 10
+SAVE_FREQ = 15
 
 # Size vector to generate images from
 NOISE_SIZE = 100
 
 # Configuration
-EPOCHS = 10000 # number of iterations
+EPOCHS = 15000 # number of iterations
 BATCH_SIZE = 32
 GENERATE_RES = 3
 IMAGE_SIZE = 128 # rows/cols
 IMAGE_CHANNELS = 3
 
-training_data = np.load('/Users/amalta/Desktop/projects/training_art.npy')
+training_data = np.load('training_art.npy')
 
 def build_discriminator(image_shape):
     model = Sequential()
