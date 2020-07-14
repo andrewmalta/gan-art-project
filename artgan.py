@@ -23,7 +23,7 @@ GENERATE_RES = 3
 IMAGE_SIZE = 128 # rows/cols
 IMAGE_CHANNELS = 3
 
-training_data = np.load('futurism.npy')
+training_data = np.load('abstact-expressionism.npy')
 
 def build_discriminator(image_shape):
     model = Sequential()
