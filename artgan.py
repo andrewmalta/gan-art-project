@@ -17,13 +17,13 @@ SAVE_FREQ = 30
 NOISE_SIZE = 100
 
 # Configuration
-EPOCHS = 30000 # number of iterations
+EPOCHS = 60000 # number of iterations
 BATCH_SIZE = 32
 GENERATE_RES = 3
 IMAGE_SIZE = 128 # rows/cols
 IMAGE_CHANNELS = 3
 
-training_data = np.load('abstract-expressionism.npy')
+training_data = np.load('cezanne.npy')
 
 def build_discriminator(image_shape):
     model = Sequential()
